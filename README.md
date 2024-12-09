@@ -1,7 +1,7 @@
 # MedLMs
  Medical grade LLM finetuning
 
-![Project Banner](https://via.placeholder.com/1200x400.png?text=Medical+Model+Performance+Analysis)
+![Project Banner](images/image.png)
 
 This repository contains the code, results, and insights from analyzing the performance of advanced language models for medical domain tasks. Models such as **Llama 3-8B**, **Gemma 1.1-7B**, and **DistilGPT2** are fine-tuned and evaluated based on BLEU, ROUGE, and accuracy metrics across multiple configurations.
 
