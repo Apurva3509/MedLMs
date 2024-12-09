@@ -49,3 +49,78 @@ Clone this repository and install the required packages:
 git clone https://github.com/username/medical-model-performance.git
 cd medical-model-performance
 pip install -r requirements.txt
+```
+
+### 🚀 Running the Code
+To train and evaluate models, use:
+```bash
+python train_and_evaluate.py --config configs/llama_config.json
+```
+
+To test inference time:
+```bash
+python inference_benchmark.py --model_path models/llama_3b.pt
+```
+
+---
+
+## Results
+
+### Tables
+| Model          | BLEU Score | ROUGE Score | Accuracy (%) | Avg. Inference Time (s) |
+|-----------------|------------|-------------|--------------|--------------------------|
+| **Llama 3-8B**  | 0.59       | 0.58        | 78.5         | 9.5                      |
+| **Gemma 1.1-7B**| 0.54       | 0.52        | 74.0         | 10.8                     |
+| **DistilGPT2**  | 0.31       | 0.29        | 50.2         | 16.5                     |
+
+### Figures
+1. **Model Performance Over Epochs**:
+   - Demonstrates learning curves for BLEU, ROUGE, and Accuracy metrics.
+   - Performance saturates after **epoch 15**.
+
+2. **Inference Time Comparison**:
+   - Highlights the efficiency of the **RTX8000** for medical AI workloads.
+
+---
+
+## Project Structure
+```
+.
+├── configs/
+│   ├── llama_config.json
+│   ├── gemma_config.json
+├── data/
+│   ├── processed/
+├── images/
+│   ├── model_performance_metrics.png
+│   ├── inference_time_configs.png
+├── models/
+├── notebooks/
+│   ├── performance_analysis.ipynb
+├── results/
+├── train_and_evaluate.py
+├── inference_benchmark.py
+├── README.md
+```
+
+---
+
+## Contributing
+We welcome contributions! To contribute:
+1. Fork the repository.
+2. Create a feature branch (`git checkout -b feature-name`).
+3. Submit a pull request.
+
+---
+
+## License
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+---
+
+## Acknowledgements
+Special thanks to:
+- **Hugging Face** for providing pre-trained models.
+- **NVIDIA** for hardware configurations used in experiments.
+
+For detailed results and models, check our [Hugging Face repository](https://huggingface.co/Apurva3509).
