@@ -53,7 +53,64 @@ To train and evaluate models, use:
 
 ## Project Structure
 ```
-
+MedLMs/
+├── Files/
+│   ├── .DS_Store
+│   ├── DistilGPT_finetuning.ipynb
+│   ├── DistilGPT_finetuning_v1.2.ipynb
+│   ├── Distilgpt2_vs_Llama3.ipynb
+│   ├── Evaluating_finetuned-distill-vs-gemma.ipynb
+│   ├── Evaluating_finetuned_LLMs-distilgpt2.ipynb
+│   ├── Evaluating_finetuned_LLMs-v1.0.ipynb
+│   ├── Llama_2_7b_MedLM.ipynb
+│   ├── Mistral_7b_MedLM.ipynb
+│   ├── README.md
+│   ├── gemma_1.1_7b_it_medical.ipynb
+│   ├── llama_3_8b_instruct_medical-new.ipynb
+│   ├── medical_models_evaluation.csv
+│   └── results-images/
+│       ├── .DS_Store
+│       ├── Accuracy vs Number of Epochs.png
+│       ├── BLEU Scores vs Number of Epochs.png
+│       ├── ROUGE Scores vs Number of Epochs.png
+│       ├── W&B Chart 11_30_2024, 10_56_31 PM.png
+│       ├── W&B Chart 11_30_2024, 10_56_31 PM.svg
+│       ├── gpu_inference_comparison.html
+│       ├── newplot-v1.png
+│       └── newplot-v2.png
+├── Presentation/
+│   ├── .DS_Store
+│   ├── EECS E6694 Final Presentation.pdf
+│   ├── EECS E6694 Final Presentation.pptx
+├── Report/
+│   ├── E6694 GenAI Report.zip
+│   ├── E6694_GenAI_Report.pdf
+├── artifacts/
+│   ├── all_models.png
+│   ├── gemma_loss.csv
+│   ├── gemma_loss.png
+│   ├── llama2_loss.csv
+│   ├── llama2_loss.png
+│   ├── llama3_loss.csv
+│   ├── llama3_loss.png
+│   ├── mistral_loss.csv
+│   ├── mistral_loss.png
+│   ├── trainer_stats_gemma.json
+│   ├── trainer_stats_llama2.json
+│   ├── trainer_stats_llama3.json
+│   ├── trainer_stats_mistral.json
+├── Data/
+│   ├── instruct_datasets.py
+│   ├── medical_meadow_wikidoc.csv
+│   ├── medquad.csv
+├── .DS_Store            
+├── .gitattributes      
+├── .gitignore           
+├── LICENSE             
+├── README.md            
+├── image.png            
+├── image2.png           
+├── requirements.txt
 ```
 
 ---
