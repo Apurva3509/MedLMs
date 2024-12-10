@@ -34,7 +34,7 @@ Clone this repository and install the required packages:
 ```bash
 git clone https://github.com/Apurva3509/medical-model-performance.git
 cd Files
-pip install -r requirements.txt (yet to be added)
+pip install -r requirements.txt 
 ```
 
 ### 🚀 Running the Code
