@@ -76,4 +76,6 @@ Special thanks to:
 - **Hugging Face** for providing pre-trained models.
 - **NVIDIA** for hardware configurations used in experiments.
 
-For detailed results and models, check our [Hugging Face repository](https://huggingface.co/Apurva3509).
+For detailed results and models, check our Hugging Face repository:
+[Apurva](https://huggingface.co/Apurva3509)
+[Abhilash](https://huggingface.co/abhilash2599)
