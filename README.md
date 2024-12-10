@@ -9,12 +9,12 @@ This repository contains the code, results, and insights from analyzing the perf
 
 ## Key Highlights
 
-### 🔑 Key Features:
+### Key Features:
 - Comprehensive **BLEU**, **ROUGE**, and **Accuracy** comparison for models.
 - Analysis of **hardware configurations** (RTX8000, A100, V100) for inference efficiency.
 - Evaluation of **model architecture** impact on task-specific performance.
 
-### 📊 Key Findings:
+### Key Findings:
 - Larger models like **Llama 3-8B** outperform smaller models due to better architecture and pre-training.
 - **RTX8000** shows optimal inference performance, while **A100** exhibits unexpected delays.
 - Rapid learning during early epochs (5–7) with saturation at epoch 15.
@@ -24,12 +24,12 @@ This repository contains the code, results, and insights from analyzing the perf
 ## Performance Metrics
 
 ### Model Performance Metrics Over Epochs
-![Model Performance](images/model_performance_metrics.png)
+![Model Performance](Code files/results-images/newplot-v1.png)
 
 - **Figure 1**: BLEU, ROUGE, and Accuracy scores across training epochs. Performance saturates after epoch 15 for most models.
 
 ### Inference Time Across Configurations
-![Inference Time](images/inference_time_configs.png)
+![Inference Time](Code files/results-images/newplot-v2.png)
 
 - **Figure 2**: Average inference times for models under various configurations (RTX8000, A100, V100). RTX8000 is the most efficient.
 
