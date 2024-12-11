@@ -34,17 +34,17 @@ Clone this repository and install the required packages:
 ```bash
 git clone https://github.com/Apurva3509/medical-model-performance.git
 cd Files
-pip install -r requirements.txt 
 ```
 
 ### 🚀 Running the Code
-To train and evaluate models, use:
+To train and evaluate models, deploy them from hugging face and play with the parameters to see the responses for differnet inputs.
 
 ---
 
 
 ### Tables
-| Model          | BLEU Score | ROUGE Score | Accuracy (%) | Avg. Inference Time (s) |
+----------------------------------------------------------------------------------------
+| Model           | BLEU Score | ROUGE Score | Accuracy (%) | Avg. Inference Time (s)  |
 |-----------------|------------|-------------|--------------|--------------------------|
 | **Llama 3-8B**  | 0.59       | 0.58        | 78.5         | 9.5                      |
 | **Gemma 1.1-7B**| 0.54       | 0.52        | 74.0         | 10.8                     |
