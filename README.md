@@ -1,5 +1,5 @@
 # MedLMs
- Medical grade LLM finetuning
+ Medical grade LLM finetuning - A project by Apurva Patel [amp2365] and Abhilash Praveen Kumar [ap4478]
 
 ![Project Banner](image2.png)
 
@@ -136,3 +136,8 @@ Special thanks to:
 For detailed results and models, check our Hugging Face repository:
 [Apurva](https://huggingface.co/Apurva3509)
 [Abhilash](https://huggingface.co/abhilash2599)
+
+## Contact
+For any queries or suggestions, feel free to reach out:
+- **Apurva Patel**: [amp2365@columbia.edu](mailto:amp2365@columbia.edu)
+- **Abhilash Praveen Kumar**: [ap4478@columbia.edu](mailto:ap4478@columbia.edu)
